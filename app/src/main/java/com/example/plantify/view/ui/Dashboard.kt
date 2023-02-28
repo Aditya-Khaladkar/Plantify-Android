@@ -9,6 +9,7 @@ import android.provider.MediaStore
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.example.plantify.databinding.ActivityDashboardBinding
+import com.example.plantify.repository.MLRepository
 import com.example.plantify.viewmodel.DashboardViewModel
 
 class Dashboard : AppCompatActivity() {
@@ -30,6 +31,9 @@ class Dashboard : AppCompatActivity() {
         }
 
         binding.txtPrediction.setOnClickListener {
+
+            // Calling viewmodel
+
             val dashboardViewModel = ViewModelProvider(this)[DashboardViewModel::class.java]
             dashboardViewModel.predict(
                 binding = binding,
