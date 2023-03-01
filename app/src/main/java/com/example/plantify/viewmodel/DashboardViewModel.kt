@@ -6,12 +6,8 @@ import android.graphics.Bitmap
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.plantify.databinding.ActivityDashboardBinding
-import com.example.plantify.ml.MobilenetV110224Quant
 import com.example.plantify.repository.MLRepository
 import kotlinx.coroutines.launch
-import org.tensorflow.lite.DataType
-import org.tensorflow.lite.support.image.TensorImage
-import org.tensorflow.lite.support.tensorbuffer.TensorBuffer
 
 class DashboardViewModel(private val mlRepository: MLRepository) : ViewModel() {
 
