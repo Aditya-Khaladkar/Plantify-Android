@@ -51,6 +51,34 @@
                 android:layout_gravity="center">
 
             </TextView>
+            
+            <EditText
+                android:layout_width="216dp"
+                android:layout_height="42dp"
+                android:background="@drawable/edittextbg"
+                android:layout_gravity="center"
+                android:layout_marginTop="47dp"
+                android:hint="Email or Phone"
+                android:textColorHint="#4F6A50"
+                android:paddingLeft="15dp"
+                android:fontFamily="@font/interregular"
+                android:textSize="15sp">
+
+            </EditText>
+
+            <EditText
+                android:layout_width="216dp"
+                android:layout_height="42dp"
+                android:background="@drawable/edittextbg"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:hint="Password"
+                android:textColorHint="#4F6A50"
+                android:paddingLeft="15dp"
+                android:fontFamily="@font/interregular"
+                android:textSize="15sp">
+
+            </EditText>
 
         </LinearLayout>
 
