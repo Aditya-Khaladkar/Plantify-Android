@@ -80,6 +80,22 @@
 
             </EditText>
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/interregular"
+                android:text="Forgot Password?"
+                android:textColor="@color/green"
+                android:textSize="12sp"
+                android:layout_gravity="end"
+                android:layout_marginRight="42dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            
+
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
