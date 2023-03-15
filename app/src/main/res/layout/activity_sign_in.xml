@@ -94,7 +94,32 @@
 
             </TextView>
 
-            
+            <Button
+                android:layout_width="216dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/buttonbackground"
+                android:text="LOG IN"
+                android:textSize="15sp"
+                android:fontFamily="@font/interregular">
+
+            </Button>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OR"
+                android:textColor="#4f6a50"
+                android:layout_gravity="center"
+                android:layout_marginTop="53dp"
+                android:textSize="13sp"
+                android:fontFamily="@font/interregular">
+
+            </TextView>
+
+
+
 
         </LinearLayout>
 
