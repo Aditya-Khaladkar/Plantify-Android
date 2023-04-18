@@ -53,12 +53,13 @@
             </TextView>
             
             <EditText
+                android:id="@+id/logEmail"
                 android:layout_width="216dp"
                 android:layout_height="42dp"
                 android:background="@drawable/edittextbg"
                 android:layout_gravity="center"
                 android:layout_marginTop="47dp"
-                android:hint="Email or Phone"
+                android:hint="Email"
                 android:textColorHint="#4F6A50"
                 android:paddingLeft="15dp"
                 android:fontFamily="@font/interregular"
@@ -67,6 +68,7 @@
             </EditText>
 
             <EditText
+                android:id="@+id/logPassword"
                 android:layout_width="216dp"
                 android:layout_height="42dp"
                 android:background="@drawable/edittextbg"
@@ -95,6 +97,7 @@
             </TextView>
 
             <Button
+                android:id="@+id/btnLogin"
                 android:layout_width="216dp"
                 android:layout_height="42dp"
                 android:layout_gravity="center"
@@ -105,52 +108,6 @@
                 android:fontFamily="@font/interregular">
 
             </Button>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="OR"
-                android:textColor="#4f6a50"
-                android:layout_gravity="center"
-                android:layout_marginTop="53dp"
-                android:textSize="13sp"
-                android:fontFamily="@font/interregular">
-
-            </TextView>
-
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_marginTop="48dp">
-
-                <com.google.android.material.floatingactionbutton.FloatingActionButton
-                    android:layout_width="39dp"
-                    android:layout_height="36dp"
-                    android:backgroundTint="@color/white"
-                    app:borderWidth="0dp"
-                    app:elevation="6dp"
-                    android:layout_gravity="start|center"
-                    android:layout_marginStart="45dp" />
-
-                <com.google.android.material.floatingactionbutton.FloatingActionButton
-                    android:layout_width="39dp"
-                    android:layout_height="36dp"
-                    android:backgroundTint="@color/white"
-                    app:borderWidth="0dp"
-                    app:elevation="6dp"
-                    android:layout_gravity="center"/>
-
-                <com.google.android.material.floatingactionbutton.FloatingActionButton
-                    android:layout_width="39dp"
-                    android:layout_height="36dp"
-                    android:backgroundTint="@color/white"
-                    app:borderWidth="0dp"
-                    app:elevation="6dp"
-                    android:layout_gravity="end|center"
-                    android:layout_marginEnd="45dp"/>
-
-            </FrameLayout>
-
 
         </LinearLayout>
 
