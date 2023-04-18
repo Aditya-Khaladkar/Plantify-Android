@@ -50,9 +50,7 @@ class DashboardViewModel : ViewModel() {
                 val map = HashMap<String, Any>()
                 map["imageUrl"] = it
 
-                firestore.collection("my_images")
-                    .document(auth.currentUser?.uid.toString())
-                    .collection(auth.currentUser?.uid.toString())
+                firestore.collection("all_images")
                     .document()
                     .set(map)
                     .addOnSuccessListener {
